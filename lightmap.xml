@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<scene id="1">
+	<attribute name="Name" value="" />
+	<attribute name="Time Scale" value="1" />
+	<attribute name="Smoothing Constant" value="50" />
+	<attribute name="Snap Threshold" value="5" />
+	<attribute name="Elapsed Time" value="0" />
+	<attribute name="Lightmap Package" value=";" />
+	<attribute name="Next Replicated Node ID" value="9" />
+	<attribute name="Next Replicated Component ID" value="9" />
+	<attribute name="Next Local Node ID" value="16777216" />
+	<attribute name="Next Local Component ID" value="16777216" />
+	<attribute name="Variables" />
+	<attribute name="Variable Names" value="" />
+	<component type="PhysicsWorld" id="1" />
+	<component type="Octree" id="2" />
+	<component type="DebugRenderer" id="3" />
+	<node id="2">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="Zone" />
+		<attribute name="Position" value="0 0 0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables" />
+		<component type="Zone" id="4">
+			<attribute name="Bounding Box Min" value="-1000 -1000 -1000" />
+			<attribute name="Bounding Box Max" value="1000 1000 1000" />
+			<attribute name="Ambient Color" value="0.25 0.25 0.25 1" />
+		</component>
+	</node>
+	<node id="3">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="GlobalLight" />
+		<attribute name="Position" value="0 0 0" />
+		<attribute name="Rotation" value="0.836516 0.482963 0.224144 -0.12941" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables" />
+		<component type="Light" id="5">
+			<attribute name="Light Type" value="Directional" />
+			<attribute name="Cast Shadows" value="true" />
+			<attribute name="Lightmapping Mode" value="Lightmapped" />
+		</component>
+	</node>
+	<node id="4">
+		<attribute name="Is Enabled" value="true" />
+		<attribute name="Name" value="RootNode" />
+		<attribute name="Position" value="0 0 -0" />
+		<attribute name="Rotation" value="1 0 0 0" />
+		<attribute name="Scale" value="1 1 1" />
+		<attribute name="Variables" />
+		<node id="5">
+			<attribute name="Is Enabled" value="true" />
+			<attribute name="Name" value="world_root" />
+			<attribute name="Position" value="0 0 -0" />
+			<attribute name="Rotation" value="1 0 0 0" />
+			<attribute name="Scale" value="1 1 1" />
+			<attribute name="Variables" />
+			<node id="6">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="topBox" />
+				<attribute name="Position" value="0 0 -0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="6">
+					<attribute name="Model" value="Model;Models/topBox.mdl" />
+					<attribute name="Material" value="Material;Materials/DefaultMaterial.xml" />
+					<attribute name="Cast Shadows" value="true" />
+					<attribute name="Lightmapping Mode" value="Lightmapped" />
+				</component>
+			</node>
+			<node id="7">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="middleBox" />
+				<attribute name="Position" value="0 0 -0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="7">
+					<attribute name="Model" value="Model;Models/middleBox.mdl" />
+					<attribute name="Material" value="Material;Materials/DefaultMaterial.xml" />
+					<attribute name="Cast Shadows" value="true" />
+					<attribute name="Lightmapping Mode" value="Lightmapped" />
+				</component>
+			</node>
+			<node id="8">
+				<attribute name="Is Enabled" value="true" />
+				<attribute name="Name" value="ground" />
+				<attribute name="Position" value="0 0 -0" />
+				<attribute name="Rotation" value="1 0 0 0" />
+				<attribute name="Scale" value="1 1 1" />
+				<attribute name="Variables" />
+				<component type="StaticModel" id="8">
+					<attribute name="Model" value="Model;Models/ground.mdl" />
+					<attribute name="Material" value="Material;Materials/DefaultMaterial.xml" />
+					<attribute name="Cast Shadows" value="true" />
+					<attribute name="Lightmapping Mode" value="Lightmapped" />
+				</component>
+			</node>
+		</node>
+	</node>
+</scene>

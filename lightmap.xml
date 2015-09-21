@@ -38,7 +38,7 @@
 		<component type="Light" id="5">
 			<attribute name="Light Type" value="Directional" />
 			<attribute name="Cast Shadows" value="true" />
-			<attribute name="Lightmapping Mode" value="Lightmapped" />
+			<attribute name="Is Static" value="true" />
 		</component>
 	</node>
 	<node id="4">
@@ -64,7 +64,7 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="6">
 					<attribute name="Model" value="Model;Models/topBox.mdl" />
-					<attribute name="Material" value="Material;Materials/DefaultMaterial.xml" />
+					<attribute name="Material" value="Material;Materials/material.xml" />
 					<attribute name="Cast Shadows" value="true" />
 					<attribute name="Lightmapping Mode" value="Lightmapped" />
 				</component>
@@ -78,7 +78,7 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="7">
 					<attribute name="Model" value="Model;Models/middleBox.mdl" />
-					<attribute name="Material" value="Material;Materials/DefaultMaterial.xml" />
+					<attribute name="Material" value="Material;Materials/material.xml" />
 					<attribute name="Cast Shadows" value="true" />
 					<attribute name="Lightmapping Mode" value="Lightmapped" />
 				</component>
@@ -92,7 +92,7 @@
 				<attribute name="Variables" />
 				<component type="StaticModel" id="8">
 					<attribute name="Model" value="Model;Models/ground.mdl" />
-					<attribute name="Material" value="Material;Materials/DefaultMaterial.xml" />
+					<attribute name="Material" value="Material;Materials/material.xml" />
 					<attribute name="Cast Shadows" value="true" />
 					<attribute name="Lightmapping Mode" value="Lightmapped" />
 				</component>
@@ -100,3 +100,4 @@
 		</node>
 	</node>
 </scene>
+
